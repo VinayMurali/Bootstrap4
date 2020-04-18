@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <title>Bootstrap Sandbox</title>
   <style>
-    .row-hl{
+    .cs-hl{
       background:#f4f4f4;
       height:250px;
     }
@@ -91,28 +91,94 @@
   <div class="container">
     <!--########################START HERE#########################-->
 
-    <!-- FLEX ROW & FLEX ITEMS -->
-    <div>
-      <div>Flex Item</div>
-      <div>Flex Item</div>
-      <div>Flex Item</div>
-    </div>
 
+    <h3 class="font-weight-bold text-danger text-center">Playing with d-flex</h3>
+    <div class="cs-hl d-flex flex-row">
+      <div class="item-hl p-4 align-self-start">Flex Item</div>
+      <div class="item-hl p-4 align-self-center">Flex Item</div>
+      <div class="item-hl p-4 align-self-end">Flex Item</div>
+      <div class="item-hl p-4 align-self-center">Flex Item</div>
+      <div class="item-hl p-4 align-self-start">Flex Item</div>
+      <div class="item-hl p-4 align-self-center">Flex Item</div>
+      <div class="item-hl p-4 align-self-end">Flex Item</div>
+      <div class="item-hl p-4 align-self-center">Flex Item</div>
+      <div class="item-hl p-4 align-self-start">Flex Item</div>
+    </div>
+  <hr />
     <br><br>
 
-    <!-- FLEX ROW REVERSE -->
+  <!-- FLEX ROW & FLEX ITEMS -->
+  <h3 class="font-weight-bold text-danger text-center">Flex Row</h3>
+  <div class="cs-hl d-flex flex-row">
+    <div class="item-hl p-4">Flex Item</div>
+    <div class="item-hl p-4">Flex Item</div>
+    <div class="item-hl p-4">Flex Item</div>
+  </div>
+  <div class="d-flex flex-row bg-primary">
+    <div class="p-4">flex-row</div>
+    <div class="p-4">flex-row</div>
+    <div class="p-4">flex-row</div>
+  </div>
+  <hr />
 
+
+    <!-- FLEX ROW REVERSE -->
+    <h3 class="font-weight-bold text-danger text-center">Flex row reverse</h3>
+    <br>
+    <div class="cs-hl d-flex flex-row-reverse">
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+    </div>
+    <hr />
     <br><br>
 
     <!-- JUSTIFY CONTENT -->
-
-    <br><br>
+    <!--
+    <h3 class="font-weight-bold text-danger text-center">d-flex flex-row justify content</h3>
+    <div class="cs-hl d-flex flex-row justify-content-start">
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+    </div>
+    <br>
+    <div class="cs-hl d-flex flex-row justify-content-center">
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+    </div>
+    <div class="cs-hl d-flex flex-row justify-content-end">
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+    </div> -->
 
     <!-- FLEX CONTAINER / FLEX COLUMN -->
-
+    <h3 class="font-weight-bold text-danger text-center">Flex Col</h3>
+    <div class="cs-hl d-flex flex-column">
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+    </div>
+    <div class="d-flex flex-column bg-primary">
+      <div class="p-4">flex-column</div>
+      <div class="p-4">flex-column</div>
+      <div class="p-4">flex-column</div>
+    </div>
+  <hr />
     <br><br>
 
+    <!-- Flex-REVERSE -->
+    <h3 class="font-weight-bold text-danger text-center">Flex Column Reverse</h3>
+    <div class="cs-hl d-flex flex-column-reverse">
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+      <div class="item-hl p-4">Flex Item</div>
+    </div>
+  <hr />
     <!-- VERTICAL ALIGN ITEMS -->
+    <h3 class="font-weight-bold text-danger text-center">Flex -alig</h3>
+
 
     <br><br>
 
@@ -121,6 +187,15 @@
     <br><br>
 
     <!-- ALIGN SELF -->
+    <h3 class="font-weight-bold text-danger text-center">Align Self</h3>
+    <div class="cs-hl d-flex flex-row">
+      <div class="item-hl p-4 align-self-md-start">align-self-start</div>
+      <div class="item-hl p-4 align-self-md-center">align-self-center</div>
+      <div class="item-hl p-4 align-self-md-end">align-self-end</div>
+      <div class="item-hl p-4 align-self-md-baseline">align-self-baseline</div>
+      <div class="item-hl p-4 align-self-md-stretch">align-self-stretch</div>
+    </div>
+  <hr />
 
     <br><br>
 
